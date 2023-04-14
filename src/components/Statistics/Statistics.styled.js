@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { getRandomHexColor } from './FunctionChangeColor';
 
 export const StatistscsCard = styled.section`
-  margin-top: 20px;
+  margin-top: 16px;
   margin-right: auto;
   margin-left: auto;
   display: block;
