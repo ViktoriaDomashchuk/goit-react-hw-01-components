@@ -8,14 +8,15 @@ export const TransactionCard = styled.table`
 `;
 
 export const TransactionColumTh = styled.th`
-  border: 2px solid black;
+  border: 2px solid #595d88;
   padding: 6px 15px;
   width: 200px;
   height: 30px;
+  color: #202231;
 `;
 
 export const TransactionColumTd = styled.td`
-  border: 1px solid black;
+  border: 2px solid #595d88;
   padding: 6px;
   text-align: center;
   color: black;
@@ -23,12 +24,12 @@ export const TransactionColumTd = styled.td`
 `;
 
 export const HeadlineTransactionCard = styled.thead`
-  background-color: blue;
+  background-color: #d0d0dc;
   font-weight: 300;
   color: white;
   text-transform: uppercase;
 `;
 
 export const BodyTransactionCard = styled.tbody`
-  background-color: white;
+  background-color: #fcf5b1;
 `;

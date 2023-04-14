@@ -7,17 +7,21 @@ export const StatistscsCard = styled.section`
   margin-left: auto;
   display: block;
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid #595d88;
+  border-radius: 5px;
   width: 300px;
   height: auto;
 `;
+
 export const Title = styled.h2`
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 20px;
   margin-bottom: 20px;
+  color: #595d88;
 `;
+
 export const StastisticsList = styled.ul`
   display: flex;
   gap: 0px;
